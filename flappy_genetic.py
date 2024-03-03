@@ -8,11 +8,11 @@ pygame.font.init()
 WIN_WIDTH = 500
 WIN_HEIGHT = 800
 
-BIRD_IMGS = [pygame.transform.scale2x(pygame.image.load(r"imgs/bird1.png")),pygame.transform.scale2x(pygame.image.load("imgs/bird2.png")),pygame.transform.scale2x(pygame.image.load("imgs/bird3.png"))]
-PIPE_IMG = pygame.transform.scale2x(pygame.image.load(r"imgs/pipe.png"))  
-BASE_IMG = pygame.transform.scale2x(pygame.image.load(r"imgs/base.png"))        
-BG_IMG = pygame.transform.scale2x(pygame.image.load(r"imgs/bg.png"))   
-STAT_FONT = pygame.font.Font("flappy-bird-font.ttf",50)
+BIRD_IMGS = [pygame.transform.scale2x(pygame.image.load(r"assets/assets/imgs/bird1.png")),pygame.transform.scale2x(pygame.image.load("assets/imgs/bird2.png")),pygame.transform.scale2x(pygame.image.load("assets/imgs/bird3.png"))]
+PIPE_IMG = pygame.transform.scale2x(pygame.image.load(r"assets/imgs/pipe.png"))  
+BASE_IMG = pygame.transform.scale2x(pygame.image.load(r"assets/imgs/base.png"))        
+BG_IMG = pygame.transform.scale2x(pygame.image.load(r"assets/imgs/bg.png"))   
+STAT_FONT = pygame.font.Font("assets/flappy-bird-font.ttf",50)
 
 class Bird:
     IMGS = BIRD_IMGS
